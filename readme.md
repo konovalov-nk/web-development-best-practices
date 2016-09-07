@@ -25,7 +25,7 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
    1. [HTTP 1.0](#http-10)
    2. [HTTP 1.1](#http-11)
    3. [HTTP/2](#http2)
-2. [nginx](#nginx)
+2. [Nginx](#nginx)
    1. [Basic configuration](#basic-configuration)
    2. [Frontend Reverse Proxy](#frontend-reverse-proxy)
    3. [SSL configuration](#ssl-configuration)
@@ -42,7 +42,7 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 5. [PHP](#php)
    1. [mod_php](#mod_php)
    2. [php-fpm](#php-fpm)
-6. [Provisioning and deploying](#provisioning-and-deploying)
+6. [Provisioning and Deploying](#provisioning-and-deploying)
    1. [Vagrant](#vagrant)
    2. [PuPHPet](#puphpet)
 7. [Git](#git)
@@ -50,9 +50,13 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 8. [Managing Your Time](#managing-your-time)
    1. [Working remotely](#working-remotely)
    2. [Evidence Based Scheduling](#evidence-based-scheduling)
-9. [Writing a better code](#writing-a-better-code)
+   3. [Why are software development estimates regularly off by a factor of 2-3 times?](#why-are-software-development-estimates-regularly-off-by-a-factor-of-2-3-times)
+   4. [Programmer Interrupted](#programmer-interrupted)
+   5. [Working asynchronously](#working-asynchronously)
+9. [Writing a Better Code](#writing-a-better-code)
    1. [The Joel Test](#the-joel-test)
    2. [Painless Bug Tracking](#painless-bug-tracking)
+   3. [What technical details should a programmer of a web application consider before making the site public?](#what-technical-details-should-a-programmer-of-a-web-application-consider-before-making-the-site-public)
 
 ## HTTP
 
@@ -112,11 +116,19 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 
 ### Evidence Based Scheduling
 
+### Why are software development estimates regularly off by a factor of 2-3 times?
+
+### Programmer Interrupted
+
+### Working asynchronously
+
 ## Writing a better code
 
 ### The Joel Test
 
 ### Painless Bug Tracking
+
+### What technical details should a programmer of a web application consider before making the site public?
 
 ## Links used
 
@@ -129,3 +141,7 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 7. [The Joel Test: 12 Steps to Better Code](http://www.joelonsoftware.com/articles/fog0000000043.html)
 8. [Painless Bug Tracking](http://www.joelonsoftware.com/articles/fog0000000029.html)
 9. [Evidence Based Scheduling](http://www.joelonsoftware.com/items/2007/10/26.html)
+10. [What technical details should a programmer of a web application consider before making the site public?](http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before)
+11. [Why are software development estimates regularly off by a factor of 2-3 times?](http://www.michaelrwolfe.com/2013/10/19/50/)
+12. [Programmer Interrupted](http://blog.ninlabs.com/2013/01/programmer-interrupted/)
+13. [Working asynchronously](http://blog.vivekhaldar.com/post/26291176846/working-asynchronously)
