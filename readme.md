@@ -42,21 +42,34 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 5. [PHP](#php)
    1. [mod_php](#mod_php)
    2. [php-fpm](#php-fpm)
-6. [Provisioning and Deploying](#provisioning-and-deploying)
+6. [Ruby](#ruby)
+   1. [RVM](#rvm)
+7. [Frameworks](#frameworks)
+   1. [Laravel](#laravel)
+   2. [Ruby on Rails](#ruby-on-rails)
+8. [Provisioning and Deploying](#provisioning-and-deploying)
    1. [Vagrant](#vagrant)
    2. [PuPHPet](#puphpet)
-7. [Git](#git)
+9. [Git](#git)
    1. [Git Workflow](#git-workflow)
-8. [Managing Your Time](#managing-your-time)
+10. [Relational Databases](#relational-databases)
+   1. [MySQL](#mysql)
+   2. [PostgreSQL](#postgresql)
+   3. [Database Indexing](#database-indexing)
+   4. [Query Optimisation](#query-optimisation)
+   5. [Sargable statements](#sargable-statements)
+11. [Managing Your Time](#managing-your-time)
    1. [Working remotely](#working-remotely)
    2. [Evidence Based Scheduling](#evidence-based-scheduling)
    3. [Why are software development estimates regularly off by a factor of 2-3 times?](#why-are-software-development-estimates-regularly-off-by-a-factor-of-2-3-times)
    4. [Programmer Interrupted](#programmer-interrupted)
    5. [Working asynchronously](#working-asynchronously)
-9. [Writing a Better Code](#writing-a-better-code)
+12. [Writing a Better Code](#writing-a-better-code)
    1. [The Joel Test](#the-joel-test)
    2. [Painless Bug Tracking](#painless-bug-tracking)
-   3. [What technical details should a programmer of a web application consider before making the site public?](#what-technical-details-should-a-programmer-of-a-web-application-consider-before-making-the-site-public)
+   3. [Unit Testing](#unit-testing)
+   4. [Behavior Testing](#behavior-testing)
+   5. [What technical details should a programmer of a web application consider before making the site public?](#what-technical-details-should-a-programmer-of-a-web-application-consider-before-making-the-site-public)
 
 ## HTTP
 
@@ -100,6 +113,16 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 
 ### php-fpm
 
+## Ruby
+
+### RVM
+
+## Frameworks
+
+### Laravel
+
+### Ruby on Rails
+
 ## Provisioning and deploying
 
 ### Vagrant
@@ -109,6 +132,18 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 ## Git
 
 ### Git Workflow
+
+## Relational Databases
+
+### MySQL
+
+### PostgreSQL
+
+### Database Indexing
+
+### Query Optimisation
+
+### Sargable statements
 
 ## Managing Your Time
 
@@ -128,6 +163,10 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 
 ### Painless Bug Tracking
 
+### Unit Testing
+
+### Behavior Testing
+
 ### What technical details should a programmer of a web application consider before making the site public?
 
 ## Links used
@@ -145,3 +184,6 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 11. [Why are software development estimates regularly off by a factor of 2-3 times?](http://www.michaelrwolfe.com/2013/10/19/50/)
 12. [Programmer Interrupted](http://blog.ninlabs.com/2013/01/programmer-interrupted/)
 13. [Working asynchronously](http://blog.vivekhaldar.com/post/26291176846/working-asynchronously)
+14. [Sargability: Why %string% Is Slow](https://www.brentozar.com/archive/2010/06/sargable-why-string-is-slow/)
+15. [How does database indexing work?](http://stackoverflow.com/questions/1108/how-does-database-indexing-work)
+16. [Sargable conditions in Relational Databases](https://en.wikipedia.org/wiki/Sargable)
