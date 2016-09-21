@@ -70,6 +70,9 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
    3. [Unit Testing](#unit-testing)
    4. [Behavior Testing](#behavior-testing)
    5. [What technical details should a programmer of a web application consider before making the site public?](#what-technical-details-should-a-programmer-of-a-web-application-consider-before-making-the-site-public)
+13. [Security Concerns](#security-concerns)
+   1. [The definitive guide to form-based website authentication](#the-definitive-guide-to-form-based-website-authentication)
+   2. [How to do stateless and cookie-less authentication?](how-to-do-stateless-and-cookie-less-authentication)
 
 ## HTTP
 
@@ -169,6 +172,12 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 
 ### What technical details should a programmer of a web application consider before making the site public?
 
+## Security Concerns
+
+### The definitive guide to form-based website authentication
+
+### How to do stateless and cookie-less authentication?
+
 ## Links used
 
 1. [Differences and dis/advanages between: Fast-CGI, CGI, Mod-PHP, SuPHP, PHP-FPM](http://serverfault.com/questions/645755/differences-and-dis-advanages-between-fast-cgi-cgi-mod-php-suphp-php-fpm)
@@ -187,3 +196,5 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 14. [Sargability: Why %string% Is Slow](https://www.brentozar.com/archive/2010/06/sargable-why-string-is-slow/)
 15. [How does database indexing work?](http://stackoverflow.com/questions/1108/how-does-database-indexing-work)
 16. [Sargable conditions in Relational Databases](https://en.wikipedia.org/wiki/Sargable)
+17. [The definitive guide to form-based website authentication](http://stackoverflow.com/a/477578/2959158)
+18. [How to do stateless (session-less) & cookie-less authentication?](http://stackoverflow.com/questions/20588467/how-to-do-stateless-session-less-cookie-less-authentication)
