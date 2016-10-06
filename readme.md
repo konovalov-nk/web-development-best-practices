@@ -25,6 +25,7 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
    1. [HTTP 1.0](#http-10)
    2. [HTTP 1.1](#http-11)
    3. [HTTP/2](#http2)
+   4. [HTTP Caching](#http-caching)
 2. [Nginx](#nginx)
    1. [Basic configuration](#basic-configuration)
    2. [Frontend Reverse Proxy](#frontend-reverse-proxy)
@@ -81,6 +82,8 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 ### HTTP 1.1
 
 ### HTTP/2
+
+### HTTP Caching
 
 ## nginx
 
@@ -198,3 +201,5 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 16. [Sargable conditions in Relational Databases](https://en.wikipedia.org/wiki/Sargable)
 17. [The definitive guide to form-based website authentication](http://stackoverflow.com/a/477578/2959158)
 18. [How to do stateless (session-less) & cookie-less authentication?](http://stackoverflow.com/questions/20588467/how-to-do-stateless-session-less-cookie-less-authentication)
+19. [Things Caches Do](http://2ndscale.com/rtomayko/2008/things-caches-do)
+20. [HTTP Caching](http://www.peej.co.uk/articles/http-caching.html)
