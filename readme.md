@@ -30,8 +30,9 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
    1. [Basic configuration](#basic-configuration)
    2. [Frontend Reverse Proxy](#frontend-reverse-proxy)
    3. [SSL configuration](#ssl-configuration)
-   4. [Pros](#pros)
-   5. [Cons](#cons)
+   4. [Thread Pools in Nginx](#thread-pools-in-nginx)
+   5. [Pros](#pros)
+   6. [Cons](#cons)
 3. [Apache2](#apache2)
    1. [Basic configuration](#basic-configuration-1)
    2. [SSL configuration](#ssl-configuration-1)
@@ -92,6 +93,8 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 ### Frontend Reverse Proxy
 
 ### SSL configuration
+
+### Thread Pools in Nginx
 
 ### Pros
 
@@ -203,3 +206,4 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 18. [How to do stateless (session-less) & cookie-less authentication?](http://stackoverflow.com/questions/20588467/how-to-do-stateless-session-less-cookie-less-authentication)
 19. [Things Caches Do](http://2ndscale.com/rtomayko/2008/things-caches-do)
 20. [HTTP Caching](http://www.peej.co.uk/articles/http-caching.html)
+21. [Thread Pools in NGINX Boost Performance 9x!](https://www.nginx.com/blog/thread-pools-boost-performance-9x/)
