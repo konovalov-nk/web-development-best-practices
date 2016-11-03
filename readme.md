@@ -26,53 +26,55 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
    2. [HTTP 1.1](#http-11)
    3. [HTTP/2](#http2)
    4. [HTTP Caching](#http-caching)
-2. [Nginx](#nginx)
-   1. [Basic configuration](#basic-configuration)
-   2. [Frontend Reverse Proxy](#frontend-reverse-proxy)
-   3. [SSL configuration](#ssl-configuration)
-   4. [Thread Pools in Nginx](#thread-pools-in-nginx)
-   5. [Pros](#pros)
-   6. [Cons](#cons)
-3. [Apache2](#apache2)
-   1. [Basic configuration](#basic-configuration-1)
-   2. [SSL configuration](#ssl-configuration-1)
-   3. [Pros](#pros-1)
-   4. [Cons](#cons-1)
-4. [Let's Encrypt](#lets-encrypt)
+2. [Web Servers](#web-servers)
+   1. [Nginx](#nginx)
+      1. [Basic configuration](#basic-configuration)
+      2. [Frontend Reverse Proxy](#frontend-reverse-proxy)
+      3. [SSL configuration](#ssl-configuration)
+      4. [Thread Pools in Nginx](#thread-pools-in-nginx)
+      5. [Pros](#pros)
+      6. [Cons](#cons)
+   2. [Apache2](#apache2)
+      1. [Basic configuration](#basic-configuration-1)
+      2. [SSL configuration](#ssl-configuration-1)
+      3. [Pros](#pros-1)
+      4. [Cons](#cons-1)
+   3. [How to Benchmark Web Server](#how-to-benchmark-web-server)
+3. [Let's Encrypt](#lets-encrypt)
    1. [Apache](#apache-1)
    2. [nginx](#nginx-1)
-5. [PHP](#php)
+4. [PHP](#php)
    1. [mod_php](#mod_php)
    2. [php-fpm](#php-fpm)
-6. [Ruby](#ruby)
+5. [Ruby](#ruby)
    1. [RVM](#rvm)
-7. [Frameworks](#frameworks)
+6. [Frameworks](#frameworks)
    1. [Laravel](#laravel)
    2. [Ruby on Rails](#ruby-on-rails)
-8. [Provisioning and Deploying](#provisioning-and-deploying)
+7. [Provisioning and Deploying](#provisioning-and-deploying)
    1. [Vagrant](#vagrant)
    2. [PuPHPet](#puphpet)
-9. [Git](#git)
+8. [Git](#git)
    1. [Git Workflow](#git-workflow)
-10. [Relational Databases](#relational-databases)
+9. [Relational Databases](#relational-databases)
    1. [MySQL](#mysql)
    2. [PostgreSQL](#postgresql)
    3. [Database Indexing](#database-indexing)
    4. [Query Optimisation](#query-optimisation)
    5. [Sargable statements](#sargable-statements)
-11. [Managing Your Time](#managing-your-time)
+10. [Managing Your Time](#managing-your-time)
    1. [Working remotely](#working-remotely)
    2. [Evidence Based Scheduling](#evidence-based-scheduling)
    3. [Why are software development estimates regularly off by a factor of 2-3 times?](#why-are-software-development-estimates-regularly-off-by-a-factor-of-2-3-times)
    4. [Programmer Interrupted](#programmer-interrupted)
    5. [Working asynchronously](#working-asynchronously)
-12. [Writing a Better Code](#writing-a-better-code)
+11. [Writing a Better Code](#writing-a-better-code)
    1. [The Joel Test](#the-joel-test)
    2. [Painless Bug Tracking](#painless-bug-tracking)
    3. [Unit Testing](#unit-testing)
    4. [Behavior Testing](#behavior-testing)
    5. [What technical details should a programmer of a web application consider before making the site public?](#what-technical-details-should-a-programmer-of-a-web-application-consider-before-making-the-site-public)
-13. [Security Concerns](#security-concerns)
+12. [Security Concerns](#security-concerns)
    1. [The definitive guide to form-based website authentication](#the-definitive-guide-to-form-based-website-authentication)
    2. [How to do stateless and cookie-less authentication?](how-to-do-stateless-and-cookie-less-authentication)
 
@@ -86,29 +88,33 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 
 ### HTTP Caching
 
-## nginx
+## Web Servers
 
-### Basic configuration
+### nginx
 
-### Frontend Reverse Proxy
+#### Basic configuration
 
-### SSL configuration
+#### Frontend Reverse Proxy
 
-### Thread Pools in Nginx
+#### SSL configuration
 
-### Pros
+#### Thread Pools in Nginx
 
-### Cons
+#### Pros
 
-## Apache2
+#### Cons
 
-### Basic configuration
+### Apache2
 
-### SSL configuration
+#### Basic configuration
 
-### Pros
+#### SSL configuration
 
-### Cons
+#### Pros
+
+#### Cons
+
+### How to Benchmark Web Server
 
 ## Let's Encrypt
 
@@ -207,3 +213,4 @@ The Internet is a large scrapyard with tiny bits of useful information and I’m
 19. [Things Caches Do](http://2ndscale.com/rtomayko/2008/things-caches-do)
 20. [HTTP Caching](http://www.peej.co.uk/articles/http-caching.html)
 21. [Thread Pools in NGINX Boost Performance 9x!](https://www.nginx.com/blog/thread-pools-boost-performance-9x/)
+22. [How to benchmark, Stress, your Apache, Nginx or IIS server](https://www.garron.me/en/go2linux/how-benchmark-stress-your-apache-nginx-or-iis-server.html)
